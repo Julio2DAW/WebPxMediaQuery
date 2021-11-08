@@ -34,3 +34,15 @@ footer{
   background-color: red;
   clear: left;
 }
+
+/*Media Query*/
+@media only screen and (max-width: 600px) {
+  aside{
+    clear: left;
+    width: 100%;
+  }
+  article{
+    clear: left;
+    min-height: 400px;
+  }
+}
