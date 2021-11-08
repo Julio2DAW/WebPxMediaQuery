@@ -1,0 +1,36 @@
+*{
+  margin: 0 auto;
+}
+body{
+  width: 1200px;
+}
+header{
+  height: 100px;
+  background-color: orange;
+}
+nav{
+  height: 100px;
+  background-color: blue;
+}
+main{
+  overflow: hidden;
+  background-color: purple;
+}
+aside{
+  width: 120px;
+  background-color: green;
+  float: left;
+  padding: 20px 0px 20px 20px;
+}
+article{
+  width: 1020px;
+  background-color: yellow;
+  min-height: 600px;
+  padding: 20px;
+  float: left;
+}
+footer{
+  height: 100px;
+  background-color: red;
+  clear: left;
+}
